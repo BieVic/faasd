@@ -11,13 +11,13 @@ import (
 
 	"github.com/containerd/containerd"
 	bootstrap "github.com/openfaas/faas-provider"
-	"github.com/BieVic/faas-provider/logs"
-	"github.com/BieVic/faas-provider/proxy"
-	"github.com/BieVic/faas-provider/types"
-	"github.com/BieVic/faasd/pkg/cninetwork"
-	faasdlogs "github.com/BieVic/faasd/pkg/logs"
-	"github.com/BieVic/faasd/pkg/provider/config"
-	"github.com/BieVic/faasd/pkg/provider/handlers"
+	"github.com/openfaas/faas-provider/logs"
+	"github.com/openfaas/faas-provider/proxy"
+	"github.com/openfaas/faas-provider/types"
+	"github.com/openfaas/faasd/pkg/cninetwork"
+	faasdlogs "github.com/openfaas/faasd/pkg/logs"
+	"github.com/openfaas/faasd/pkg/provider/config"
+	"github.com/openfaas/faasd/pkg/provider/handlers"
 	"github.com/spf13/cobra"
 )
 

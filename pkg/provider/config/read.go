@@ -18,7 +18,7 @@ func ReadFromEnv(hasEnv types.HasEnv) (*types.FaaSConfig, *ProviderConfig, error
 		return nil, nil, err
 	}
 
-	serviceTimeout := time.Second*360 // types.ParseIntOrDurationValue(hasEnv.Getenv("service_timeout"), time.Second*60)
+	serviceTimeout := time.Second * 1200 // types.ParseIntOrDurationValue(hasEnv.Getenv("service_timeout"), time.Second*60)
 
 	config.EnableHealth = true
 	config.ReadTimeout = serviceTimeout

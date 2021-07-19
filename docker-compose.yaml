@@ -46,9 +46,9 @@ services:
       - basic_auth=true
       - functions_provider_url=http://faasd-provider:8081/
       - direct_functions=false
-      - read_timeout=5m
-      - write_timeout=5m
-      - upstream_timeout=5m
+      - read_timeout=20m
+      - write_timeout=20m
+      - upstream_timeout=20m
       - faas_nats_address=nats
       - faas_nats_port=4222
       - auth_proxy_url=http://basic-auth-plugin:8080/validate
