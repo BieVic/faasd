@@ -6,7 +6,7 @@
 # Repo specific content #
 #########################
 
-export OWNER="openfaas"
+export OWNER="BieVic"
 export REPO="faasd"
 
 version=""
