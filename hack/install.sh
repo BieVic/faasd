@@ -118,7 +118,7 @@ install_faasd() {
     ;;
   esac
 
-  $SUDO curl -fSLs "https://github.com/BieVic/faasd/releases/download/${version}/faasd${suffix}" --output "/usr/local/bin/faasd"
+  $SUDO curl -fSLs "https://github.com/openfaas/faasd/releases/download/${version}/faasd${suffix}" --output "/usr/local/bin/faasd"
   $SUDO chmod a+x "/usr/local/bin/faasd"
 
   mkdir -p /tmp/faasd-${version}-installation/hack
