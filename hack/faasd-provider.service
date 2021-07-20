@@ -5,7 +5,7 @@ Description=faasd-provider
 MemoryLimit=500M
 Environment="secret_mount_path={{.SecretMountPath}}"
 Environment="basic_auth=true"
-Environment="service_timeout=5m"
+Environment="service_timeout=20m"
 ExecStart=/usr/local/bin/faasd provider
 Restart=on-failure
 RestartSec=10s
